@@ -20,6 +20,7 @@
   "homepage": "https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io#readme",
   "dependencies": {
     "next": "^13.0.6",
+    "next-sitemap": "^4.2.3",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
