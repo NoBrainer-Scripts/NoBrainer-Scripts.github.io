@@ -1,0 +1,32 @@
+{
+  "name": "fivem-script-docs",
+  "version": "0.0.1",
+  "description": "Fivem Script Docs for ItsANoBrainer. Made with Nextra.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next-sitemap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io.git"
+  },
+  "author": "ItsANoBrainer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io/issues"
+  },
+  "homepage": "https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io#readme",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
