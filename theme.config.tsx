@@ -4,12 +4,12 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>NoBrainer Scripts</span>,
   project: {
-    link: 'https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io',
+    link: 'https://github.com/nobrainer-scripts/nobrainer-scripts.github.io',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io',
+  docsRepositoryBase: 'https://github.com/nobrainer-scripts/nobrainer-scripts.github.io',
   footer: {
     text: 'NoBrainer Scripts',
   },

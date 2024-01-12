@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io.git"
+    "url": "git+https://github.com/nobrainer-scripts/nobrainer-scripts.github.io.git"
   },
   "author": "ItsANoBrainer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io/issues"
+    "url": "https://github.com/nobrainer-scripts/nobrainer-scripts.github.io/issues"
   },
-  "homepage": "https://github.com/NoBrainer-Scripts/NoBrainer-Scripts.github.io#readme",
+  "homepage": "https://github.com/nobrainer-scripts/nobrainer-scripts.github.io#readme",
   "dependencies": {
     "next": "^13.0.6",
     "next-sitemap": "^4.2.3",
