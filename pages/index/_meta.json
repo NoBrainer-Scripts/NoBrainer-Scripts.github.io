@@ -1,0 +1,22 @@
+{
+	"about": {
+		"title": "About",
+		"href": "/#about"
+	},
+	"ourContent": {
+		"title": "Our Content",
+		"href": "/#our-content"
+	},
+	"tos": {
+		"title": "Terms of Service",
+		"href": "/#terms-of-service"
+	},
+	"supportCommunity": {
+		"title": "Supporting You",
+		"href": "/#supporting-our-you"
+	},
+	"supportTeam": {
+		"title": "Supporting our Team",
+		"href": "/#supporting-our-team"
+	}
+}

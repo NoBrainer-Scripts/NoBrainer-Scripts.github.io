@@ -1,7 +1,7 @@
 {
-  "name": "fivem-script-docs",
-  "version": "0.0.1",
-  "description": "Fivem Script Docs for ItsANoBrainer. Made with Nextra.",
+  "name": "project-penguins-docs",
+  "version": "0.1.0",
+  "description": "Docs for Project Penguins.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nobrainer-scripts/nobrainer-scripts.github.io.git"
+    "url": "git+https://github.com/Project-Penguins/project-penguins.github.io.git"
   },
   "author": "ItsANoBrainer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nobrainer-scripts/nobrainer-scripts.github.io/issues"
+    "url": "https://github.com/Project-Penguins/project-penguins.github.io/issues"
   },
-  "homepage": "https://github.com/nobrainer-scripts/nobrainer-scripts.github.io#readme",
+  "homepage": "https://github.com/Project-Penguins/project-penguins.github.io#readme",
   "dependencies": {
     "next": "^14.0.4",
     "next-sitemap": "^4.2.3",

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://nobrainer-scripts.github.io/',
+  siteUrl: 'https://project-penguins.github.io/',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',

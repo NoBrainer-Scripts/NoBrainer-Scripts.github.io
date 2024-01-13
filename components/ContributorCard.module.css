@@ -1,0 +1,45 @@
+.contributor-card {
+	padding: 16px;
+	margin: 16px;
+	text-align: center;
+	width: 200px;
+}
+
+.contributor-image {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 166px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.social-links {
+	margin-top: 10px;
+}
+
+.social-button {
+	display: block;
+	margin-bottom: 5px;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	/* Adjust the color as needed */
+	border-radius: 5px;
+}
+
+.social-github {
+	background-color: #6cc644;
+}
+
+.social-github:hover {
+	background-color: #5cb531;
+}
+
+.social-kofi {
+	background-color: #ff5e5b;
+}
+
+.social-kofi:hover {
+	background-color: #e64c4a;
+}
