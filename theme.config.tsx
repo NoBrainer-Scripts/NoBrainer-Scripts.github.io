@@ -5,8 +5,8 @@ import { useRouter } from 'next/router';
 function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
-  const url = `https://project-penguins.github.io/${asPath}`;
-  const description = frontMatter.description || "Documentation for Project Penguins's resources for FiveM/RedM";
+  const url = `https://project-penguins.itsanobrainer.dev/${asPath}`;
+  const description = frontMatter.description || "Documentation for Project Penguins' resources for FiveM/RedM";
 
   return (
     <>
@@ -41,7 +41,7 @@ const config: DocsThemeConfig = {
       <span style={{ paddingLeft: '10px' }}>Project Penguin</span>
     </>,
     project: {
-      link: 'https://github.com/Project-Penguins/project-penguins.github.io',
+      link: 'https://github.com/Project-Penguins',
     },
   chat: {
     link: 'https://discord.com',
