@@ -25,7 +25,7 @@ function useHead() {
 function useNextSeoProps() {
   const { asPath } = useRouter();
   const arr = asPath.replace(/[-_]/g, ' ').split('/');
-  const category = (arr[1][0] !== '#' && arr[1]) || 'Project Penguin';
+  const category = (arr[1][0] !== '#' && arr[1]) || 'Project Penguins';
   const rawTitle = arr[arr.length - 1];
   const title = /[a-z]/.test(rawTitle) && /[A-Z]/.test(rawTitle) ? rawTitle : '%s';
 
@@ -37,7 +37,7 @@ function useNextSeoProps() {
 
 const config: DocsThemeConfig = {
   logo: <>
-    <img src="/static/images/penguin.png" alt="Project Penguin Logo" style={{height: '32px', width: '32px'}}/>
+    <img src="/static/images/penguin.png" alt="Project Penguins Logo" style={{height: '32px', width: '32px'}}/>
       <span style={{ paddingLeft: '10px' }}>Project Penguin</span>
     </>,
     project: {
@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/Project-Penguins/project-penguins.github.io/tree/main',
   footer: {
-    text: 'Project Penguin',
+    text: 'Project Penguins',
   },
   head: useHead,
   sidebar: {

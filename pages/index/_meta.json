@@ -1,6 +1,6 @@
 {
 	"about": {
-		"title": "About",
+		"title": "About Us",
 		"href": "/#about"
 	},
 	"ourContent": {
@@ -13,7 +13,7 @@
 	},
 	"supportCommunity": {
 		"title": "Supporting You",
-		"href": "/#supporting-our-you"
+		"href": "/#supporting-you"
 	},
 	"supportTeam": {
 		"title": "Supporting our Team",

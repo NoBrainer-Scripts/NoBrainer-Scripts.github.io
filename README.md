@@ -1,4 +1,4 @@
-# Project Penguin Docs
+# Project Penguins Docs
 
 Using NextJS and Nextra-Docs.
 
