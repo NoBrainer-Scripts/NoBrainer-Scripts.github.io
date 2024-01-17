@@ -52,9 +52,13 @@ const config: DocsThemeConfig = {
   },
   head: useHead,
   sidebar: {
-    defaultMenuCollapseLevel: 1,
+    defaultMenuCollapseLevel: 2,
   },
-  // gitTimestamp React.ReactNode | React.FC<{ timestamp: Date }>
+  banner: {
+    key: 'wip',
+    dismissible: true,
+    text: 'This site is a work in progress. Feel free to send any suggestions to the team.'
+  },
   gitTimestamp: ({ timestamp }) => {
     return (
       <div >
