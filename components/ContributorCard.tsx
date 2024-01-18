@@ -1,4 +1,6 @@
 import styles from './ContributorCard.module.css'
+import { IconBrandGithub, IconMug } from '@tabler/icons-react';
+
 
 interface Contributor {
 	name: string;
@@ -14,10 +16,14 @@ const ContributorCard: React.FC<Contributor> = ({ name, image, github, kofi }) =
 			<h3>{name}</h3>
 			<div className={styles['social-links']}>
 				{github && (
-					<a href={'https://github.com/'+github} className={`${styles['social-button']} ${styles['social-github']}`} target="_blank" rel="noopener noreferrer">GitHub</a>
+					<a href={'https://github.com/'+github} className={`${styles['social-button']} ${styles['social-github']}`} target="_blank" rel="noopener noreferrer">
+						<IconBrandGithub className={styles['social-icon']} />GitHub
+					</a>
 				)}
 				{kofi && (
-					<a href={'https://ko-fi.com/'+kofi} className={`${styles['social-button']} ${styles['social-kofi']}`} target="_blank" rel="noopener noreferrer">Ko-Fi</a>
+					<a href={'https://ko-fi.com/'+kofi} className={`${styles['social-button']} ${styles['social-kofi']}`} target="_blank" rel="noopener noreferrer">
+						<IconMug className={styles['social-icon']} />Ko-Fi
+					</a>
 				)}
 			</div>
 		</div>

@@ -1,0 +1,123 @@
+import { IconBrandVscode, IconDatabase, IconNumber5, IconLetterR, IconMap, IconFile, IconBrandBlender, IconCubePlus, IconBrandFilezilla } from '@tabler/icons-react';
+
+# Programs & Tools 🛠
+Utilizing and understanding the essential tools and programs that are available, play a pivotal role in ehancing your experience, efficiency, and workflows in your projects.
+
+In this section we will explore a variety of tools designed to enhance your development experience, and reasonings for doing so. Whether you're a seasoned developer or just getting started, these tools and strategies will elevate your skills and contribute to the success of your projects.
+
+## Why Use Programs & Tools?
+
+### Efficiency
+Efficent tools streamline your development workflow, which in turn, helps you acheive tasks faster with greater accuracy. Time is valuable!
+
+By incorporating tools that automate reptitive tasks, or provide helpful insight, you can optimize your coding process and allocate more time to other tasks.
+
+### Code Quality and Best Practices
+Tools that enforce coding standards and best practices contribute to maintaining a high level of code quality. The ensure consistency across projects, catch potential issues, and promote good coding habits.
+
+The result is cleaner, more readable code that is easier to maintian and collaborate on.
+
+## List of Programs & Tools
+
+## General Purpose
+<table>
+  <thead>
+    <tr>
+	  <th>Icon</th>
+      <th>Name</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { icon: IconBrandVscode, name: 'Visual Studio Code', link: 'https://code.visualstudio.com/', notes: 'Also known as VSC, this is a text/code editor made by Microsoft. It supports debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.' },
+	  { icon: IconBrandFilezilla, name: 'FileZilla FTP', link: 'https://filezilla-project.org/', notes: 'FTP Client/Server for remote managing of files.' }
+	].map(item => (
+      <tr key={item.name}>
+	  	<td><item.icon /></td>
+        <td><a href={item.link}>{item.name}</a></td>
+        <td>{item.notes}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+## Database
+
+### Management Tools
+<table>
+  <thead>
+    <tr>
+	  <th>Icon</th>
+      <th>Name</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { icon: IconDatabase, name: 'HeidiSQL', link: 'https://www.heidisql.com/', notes: 'Database management tool for MySQL, MariaDB, MSSQL, and PostgreSQL.' },
+	  { icon: IconDatabase, name: 'DBeaver', link: 'https://dbeaver.io/', notes: 'Database management tool for MySQL, MariaDB, MSSQL, PostgreSQL, Oracle, and SQLite.' },
+	  { icon: IconDatabase, name: 'MySQL Workbench', link: 'https://www.mysql.com/products/workbench/', notes: 'Database management tool for MySQL and MariaDB.' },
+	  { icon: IconDatabase, name: 'Navicat', link: 'https://www.navicat.com/en/', notes: 'Database management tool for MySQL, MariaDB, MSSQL, PostgreSQL, Oracle, and SQLite.' },
+	  { icon: IconDatabase, name: 'SQL Server Management Studio', link: 'https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15', notes: 'Database management tool for MSSQL.' },
+	  { icon: IconDatabase, name: 'phpMyAdmin', link: 'https://www.phpmyadmin.net/', notes: 'Database management tool for MySQL and MariaDB.' },
+	].map(item => (
+      <tr key={item.name}>
+	  	<td><item.icon /></td>
+        <td><a href={item.link}>{item.name}</a></td>
+        <td>{item.notes}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+### Servers
+<table>
+  <thead>
+    <tr>
+	  <th>Icon</th>
+      <th>Name</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+	  { icon: IconDatabase, name: 'MariaDB', link: 'https://mariadb.org/', notes: 'Database Server. Community-developed, commercially supported fork of the MySQL.' },
+	  { icon: IconDatabase, name: 'MySQL Community', link: 'https://dev.mysql.com/downloads/mysql/', notes: 'Database Server. Widely used open-source relational database management system.' },
+	  { icon: IconDatabase, name: 'XAMPP', link: 'https://www.apachefriends.org/', notes: 'Quick and dirty Database Server. XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl.' },
+	].map(item => (
+      <tr key={item.name}>
+	  	<td><item.icon /></td>
+        <td><a href={item.link}>{item.name}</a></td>
+        <td>{item.notes}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+## FiveM/RedM Specific
+<table>
+  <thead>
+    <tr>
+	  <th>Icon</th>
+      <th>Name</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+	  { icon: IconNumber5, name: 'FiveM Server Artifacts', link: 'https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/', notes: 'FiveM Windows Server artifacts required to run a server.' },
+	  { icon: IconLetterR, name: 'RedM Server Artifacts', link: 'https://runtime.fivem.net/artifacts/fivem/build_server_windows/portability-rdr3/', notes: 'RedM Windows Server artifacts required to run a server.'},
+	  { icon: IconFile, name: 'OpenIV', link: 'https://openiv.com/', notes: 'Popular modding tool allowing users to manipulate game files, create modifications, and customize various aspects of the game.' },
+	  { icon: IconMap, name: 'CodeWalker', link: 'https://discord.com/invite/BxfKHkk', notes: "Designed for exploring and editing the game's map, including terrain, buildings, and other elements. CodeWalker allows modders to view and manipulate the game's environment to create custom maps or make changes to existing ones." },
+	  { icon: IconBrandBlender, name: 'Sollumz - Blender Plugin', link: 'https://forum.cfx.re/t/sollumz-blender-plugin/4779112', notes: "Blender plugin for modifying game assets. 3DS Max has been the normal tool for this, but this plugin allows you to use Blender instead."},
+	  { icon: IconCubePlus, name: 'GIMS Evo', link: 'https://forum.cfx.re/t/sollumz-blender-plugin/4779112', notes: "3DS Max script for modifying game assets. "}
+	].map(item => (
+      <tr key={item.name}>
+	  	<td><item.icon /></td>
+        <td><a href={item.link}>{item.name}</a></td>
+        <td>{item.notes}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>

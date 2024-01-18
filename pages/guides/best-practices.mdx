@@ -1,0 +1,88 @@
+import { Tabs, FileTree, Callout } from 'nextra/components'
+
+# Developer Best Practices
+
+Looking to make your resources the best the can be? Here are some tips and tricks to help you get started and be at the top of your game.
+
+## Subfolder Organization
+
+Streamline your organization by categorizing everything into subfolders, such as server resources and resource files. In the resource files folder, consider grouping client, server, shared, UI, and other related files together.
+
+This structured approach aids in efficiently locating specific files and maintaining a clear overview of your resources. By implementing this method, you ensure that your resource files remain tidy and well-organized, facilitating a smoother workflow.
+
+There is no *right* way to organize your files, but there are some common practices that you can follow to get started. For example, you can organize your files by file type. You can also organize your files by function, such as player, vehicle, utils/libs, classes, and more.
+
+<Callout type="info">
+  You can ensure entire folders in your server.cfg by using the \[foldername\]!
+</Callout>
+
+Examples:
+<Tabs items={['Server Resources', 'Resource Files']}>
+  <Tabs.Tab>
+	Click the *resources* folder below to expand it and see the subfolders.
+	<FileTree>
+		<FileTree.Folder name="resources">
+			<FileTree.Folder name="[administration]"></FileTree.Folder>
+			<FileTree.Folder name="[cfx-default]"></FileTree.Folder>
+			<FileTree.Folder name="[devtools]"></FileTree.Folder>
+			<FileTree.Folder name="[discord]"></FileTree.Folder>
+			<FileTree.Folder name="[jobs]" defaultOpen>
+				<FileTree.Folder name="[allowlisted]"></FileTree.Folder>
+				<FileTree.Folder name="[civillian]"></FileTree.Folder>
+				<FileTree.Folder name="[crime]"></FileTree.Folder>
+			</FileTree.Folder>
+			<FileTree.Folder name="[minigames]"></FileTree.Folder>
+			<FileTree.Folder name="[xyz-framework]"></FileTree.Folder>
+			<FileTree.Folder name="[streaming]" defaultOpen>
+				<FileTree.Folder name="[mapping]"></FileTree.Folder>
+				<FileTree.Folder name="[clothing]"></FileTree.Folder>
+				<FileTree.Folder name="[vehicles]">
+					<FileTree.Folder name="[boats]"></FileTree.Folder>
+					<FileTree.Folder name="[cars]"></FileTree.Folder>
+					<FileTree.Folder name="[planes]"></FileTree.Folder>
+					<FileTree.Folder name="[vehicles-other]"></FileTree.Folder>
+				</FileTree.Folder>
+				<FileTree.Folder name="[weapons]"></FileTree.Folder>
+			</FileTree.Folder>
+			<FileTree.Folder name="[standalone]"></FileTree.Folder>
+			<FileTree.Folder name="[voice]"></FileTree.Folder>
+		</FileTree.Folder>
+	</FileTree>
+  </Tabs.Tab>
+  <Tabs.Tab>
+	Click the *resource_name-here* folder below to expand it and see the subfolders.
+	<FileTree>
+		<FileTree.Folder name="resource_name-here" defaultOpen>
+			<FileTree.Folder name="[client]">
+				<FileTree.File name="cl_main.lua" />
+				<FileTree.File name="cl_config.lua" />
+			</FileTree.Folder>
+			<FileTree.Folder name="[server]">
+				<FileTree.File name="sv_main.lua" />
+				<FileTree.File name="sv_config.lua" />
+			</FileTree.Folder>
+			<FileTree.Folder name="[shared]">
+				<FileTree.File name="sh_main.lua" />
+				<FileTree.File name="sh_config.lua" />
+			</FileTree.Folder>
+			<FileTree.Folder name="[locales]"></FileTree.Folder>
+			<FileTree.Folder name="[web]">
+				<FileTree.Folder name="[js]">
+					<FileTree.File name="script.js" />
+				</FileTree.Folder>
+				<FileTree.Folder name="[css]">
+					<FileTree.File name="style.css" />
+				</FileTree.Folder>
+				<FileTree.Folder name="[img]">
+					<FileTree.File name="cat.jpg" />
+					<FileTree.File name="dog.png" />
+				</FileTree.Folder>
+				<FileTree.File name="index.html" />
+			</FileTree.Folder>
+			<FileTree.File name="LICENSE" />
+			<FileTree.File name="README.md" />
+			<FileTree.File name="fxmanifest.lua" />
+		</FileTree.Folder>
+	</FileTree>
+  </Tabs.Tab>
+</Tabs>

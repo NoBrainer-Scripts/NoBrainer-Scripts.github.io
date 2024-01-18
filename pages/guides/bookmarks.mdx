@@ -1,0 +1,54 @@
+import { Cards, Card } from 'nextra/components'
+import { IconBooks } from '@tabler/icons-react';
+
+# Bookmarks
+Having quick access to the sites and references that are helpful and important to you is a must. With the bookmarks feature, you can add any site you want to your bookmarks list and access it with a single click.
+
+Putting bookmarks into bookmark folders is also extremely helpful and important, especially if you have a lot. Organization is always important to an efficient workflow.
+
+## Official FiveM Sites
+FiveM has a lot of helpful docs that are important to know about. Here are some of the most important ones.
+
+<Cards>
+	{[
+		{ icon: IconBooks, title: 'Docs', href: 'https://docs.fivem.net/docs/' },
+		{ icon: IconBooks, title: 'Natives', href: 'https://docs.fivem.net/natives/'},
+		{ icon: IconBooks, title: 'Game References', href: 'https://docs.fivem.net/docs/game-references/'},
+		{ icon: IconBooks, title: 'Resource Manifest', href: 'https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/'},
+		{ icon: IconBooks, title: 'Native Events', href: 'https://docs.fivem.net/docs/scripting-reference/events/'},
+		{ icon: IconBooks, title: 'Convars', href: 'https://docs.fivem.net/docs/scripting-reference/convars/'},
+		{ icon: IconBooks, title: 'Console Commands', href: 'https://docs.fivem.net/docs/client-manual/console-commands/'},
+		{ icon: IconBooks, title: 'Server Commands', href: 'https://docs.fivem.net/docs/server-manual/server-commands/'},
+		{ icon: IconBooks, title: 'Working With Events', href: 'https://docs.fivem.net/docs/scripting-manual/working-with-events/'},
+		{ icon: IconBooks, title: 'State Bags', href: 'https://docs.fivem.net/docs/scripting-manual/networking/state-bags/'},
+		{ icon: IconBooks, title: 'NUI Development', href: 'https://docs.fivem.net/docs/scripting-manual/nui-development/'},
+		{ icon: IconBooks, title: 'NUI Debugging', href: 'http://localhost:13172/'},
+		{ icon: IconBooks, title: 'DUI Information', href: 'https://docs.fivem.net/docs/scripting-manual/nui-development/dui/'},
+		{ icon: IconBooks, title: 'Profiler Debugging', href: 'https://docs.fivem.net/docs/scripting-manual/debugging/using-profiler/'},
+	].map(item => (
+		<Card icon={<item.icon />} title={item.title} href={item.href} />
+    ))}
+</Cards>
+
+## General Sites
+{/* <Cards>
+	{[
+		{ icon: IconBooks, title: '', href: '' },
+	].map(item => (
+		<Card icon={<item.icon />} title={item.title} href={item.href} />
+    ))}
+</Cards> */}
+
+## Framework Sites
+
+<Cards>
+	{[
+		{ icon: IconBooks, title: 'Overextended', href: 'https://overextended.dev/' },
+		{ icon: IconBooks, title: 'QBox', href: 'https://docs.qbox.re/' },
+		{ icon: IconBooks, title: 'QBCore', href: 'https://docs.qbcore.org/qbcore-documentation/' },
+		{ icon: IconBooks, title: 'ESX', href: 'https://documentation.esx-framework.org/' },
+		{ icon: IconBooks, title: 'vRP', href: 'https://vrp-framework.github.io/vRP/' },
+	].map(item => (
+		<Card icon={<item.icon />} title={item.title} href={item.href} />
+    ))}
+</Cards>

@@ -26,6 +26,12 @@
 	color: #fff;
 	/* Adjust the color as needed */
 	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon {
+	margin-right: 5px;
 }
 
 .social-github {

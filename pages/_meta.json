@@ -3,22 +3,25 @@
     "title": "Introduction"
   },
 
-  "guides": {
+  "guides-": {
     "title": "📘 Guides 📘",
     "type": "separator"
   },
+  "guides": {
+    "title": "Guides"
+  },
 
-  "resourcesPaid": {
+  "resourcesPaid-": {
     "title": "🌟 Paid Resources 🌟",
     "type": "separator"
   },
 
-  "resourcesFree": {
+  "resourcesFree-": {
     "title": "💡 Free Resources 💡",
     "type": "separator"
   },
 
-  "other": {
+  "other-": {
     "title": "📁 Other 📁",
     "type": "separator"
   },
